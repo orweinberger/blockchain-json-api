@@ -1,0 +1,20 @@
+{
+  "name": "blockchain-json-api",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "author": "Or Weinberger <orweinberger@gmail.com>",
+  "description": "A nodejs implementation of the blockchain.info JSON API",
+  "engine": "node >= 0.10.x",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orweinberger/blockchain-json-api.git"
+  },
+  "contributors": [
+    {
+      "name": "Or Weinberger",
+      "email": "orweinberger@gmail.com",
+      "url": "http://joola.io"
+    }
+  ]
+}

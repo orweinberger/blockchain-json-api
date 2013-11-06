@@ -2,16 +2,25 @@ var blockchain = require('./lib/blockchain');
 
 var bc = new blockchain();
 
-bc.API('tx-index', '12554260', function (res) {
-  //console.log(res);
+bc.API('tx-index', '1000', function (res, err) {
+  if (err)
+    console.log('Error! ', err)
+  else
+    console.log(res);  
 });
 
-bc.API('block-height', '1000', function (res) {
-  //console.log(res);
+bc.API('block-height', '1000', function (res, err) {
+  if (err)
+    console.log('Error! ', err)
+  else
+    console.log(res);
 });
 
-bc.API('address', '1FfmbHfnpaZjKFvyi1okTjJJusN455paPH', function (res) {
-  console.log(res);
+bc.API('address', '1LTNyzQDxyAU89BaQwk8vaePADnXYErYda', function (res, err) {
+  if (err)
+    console.log('Error! ', err)
+  else
+    console.log(res);
 });
 
 

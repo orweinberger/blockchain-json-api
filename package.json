@@ -1,7 +1,7 @@
 {
   "name": "blockchain-json-api",
   "preferGlobal": false,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Or Weinberger <orweinberger@gmail.com>",
   "description": "A nodejs implementation of the blockchain.info JSON API",
   "engine": "node >= 0.10.x",

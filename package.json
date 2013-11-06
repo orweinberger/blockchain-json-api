@@ -1,7 +1,7 @@
 {
   "name": "blockchain-json-api",
   "preferGlobal": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Or Weinberger <orweinberger@gmail.com>",
   "description": "A nodejs implementation of the blockchain.info JSON API",
   "engine": "node >= 0.10.x",
@@ -17,6 +17,16 @@
       "email": "orweinberger@gmail.com",
       "url": "http://joola.io"
     }
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "bitcoin",
+    "blockchain",
+    "mongodb"
   ],
   "readme": "This is a simple implementation of the blockchain.info JSON API written for nodejs.\n\nFor all available methods please visit: http://blockchain.info/api/blockchain_api\n\nCheck out the examples.js file for more information."
 }

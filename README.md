@@ -36,3 +36,7 @@ bc.API('address', '1LTNyzQDxyAU89BaQwk8vaePADnXYErYda', function (res, err) {
 
 ```
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/orweinberger/blockchain-json-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

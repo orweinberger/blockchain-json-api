@@ -1,6 +1,5 @@
 {
-  "name": "blockchain-json-api",
-  "preferGlobal": false,
+  "name": "blockchain-api-enbitcoins",
   "version": "0.0.7",
   "author": "Or Weinberger <orweinberger@gmail.com>",
   "description": "A nodejs implementation of the blockchain.info JSON API",
@@ -8,9 +7,9 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git://github.com/orweinberger/blockchain-json-api.git"
+    "url": "git://github.com/enbitcoins/blockchain-api-enbitcoins.git"
   },
-  "main": "./lib/blockchain",
+  "main": "./lib/blockchain.js",
   "scripts": {
     "start": "node examples.js"
   },
@@ -19,16 +18,18 @@
       "name": "Or Weinberger",
       "email": "orweinberger@gmail.com",
       "url": "http://joola.io"
-    }
-  ],
-  "licenses": [
+    },
     {
-      "type": "MIT"
+      "name": "Mario Colque",
+      "email": "colquemario@gmail.com",
+      "url": "http://colkito.com"
     }
   ],
+  "licenses": "MIT",
   "keywords": [
     "bitcoin",
     "blockchain",
-    "mongodb"
+    "enbitcoins",
+    "API"
   ]
 }
